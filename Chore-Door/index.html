@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>Chore Door</title>
+</head>
+<body>
+    <header>
+        
+        <img src="https://content.codecademy.com/projects/chore-door/images/logo.svg" alt="chore door">
+    </header>
+
+    <main>
+        <h3>Instructions</h3>
+        <section class="instructions">
+            <div class="inst"><span>1</span> <p>Hiding behind one of these doors is the ChoreBot.</p></div>
+            <div class="inst"><span>2</span> <p>Your mission is to open all of the doors without running into the ChoreBot.</p></div>
+            <div class="inst"><span>3</span> <p>If you manage to avoid the ChoreBot until the very last door, you win!</p></div>
+            <div class="inst"><span>4</span> <p>See if you can score a winning streak!</p></div>   
+        </section>
+
+        <script src="./script.js" defer></script>
+
+        <section class="doors">
+            <div class="door" id="door1">
+                <img src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg" alt="purple door">
+            </div>
+            <div class="door" id="door2">
+                <img src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg" alt="purple door">
+            </div>
+            <div class="door" id="door3">
+                <img src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg" alt="purple door">
+            </div>
+        </section>
+
+
+        <button class="new game">Good Luck!</button>
+
+        <section class="results">
+            <div class="container">
+                <p>Current Streak:</p>
+                <div class="box" id="current"></div>
+            </div>
+            <div class="container">
+                <p>Best Streak:</p>
+                <div class="box" id="best"></div>
+            </div>
+        </section>
+
+    </main>
+    
+</body>
+</html>

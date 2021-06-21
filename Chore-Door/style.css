@@ -1,0 +1,113 @@
+* {
+    font-size: 16px;
+    font-family: 'Work Sans';
+    color: white;
+    /*border: 0.5px solid red;*/
+    box-sizing: border-box;
+}
+body {
+    background-color: #010165;
+    margin: 0px;
+    height: 100%;
+}
+
+/**/
+
+/*     HEADER     */
+header {
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*     MAIN     */
+main {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*     Instructions     */
+.instructions {
+    margin-bottom: 2rem;
+    height: auto;
+    width: 75%;
+
+}
+h3 {
+    color: aqua;
+    text-align: center;
+}
+.inst {
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 3rem;
+    width: 100%;
+}
+span {
+    display: flex;
+    align-items: center;
+    color: aqua;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-right: 1rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 2rem;
+}
+
+/*     Doors     */
+
+.doors{
+    height: auto;
+    width: 26rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.door {
+    width: auto;
+    height: auto;
+}
+button {
+    background-color: darkorange;
+    color: #010165;
+    padding: 1rem 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+/*     Results     */
+.results {
+    display: inline-flex;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 1rem;
+}
+.box {
+    height: 4rem;
+    width: 4rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box p {
+    color: #010165;
+    font-size: 3rem;
+    font-weight: 500;
+
+}
